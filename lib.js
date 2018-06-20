@@ -1512,7 +1512,7 @@ initSteem():
 function initLib(initSteem, callback) {
   setupLogging();
   // #93, use alternate websocket temporarily
-  steem.api.setOptions({ url: 'https://steemd.privex.io'});
+  steem.api.setOptions({ url: 'steemd.privex.io'});
   // #71, no longer need to set this
   var processes = [
     function() {
